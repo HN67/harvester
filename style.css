@@ -1,0 +1,100 @@
+/* Main CSS file*/
+
+/* Main styling for sideways display */
+#display{
+    
+    background-color: lightgray;
+    display: inline-flex;
+    
+    border: 2px solid black;
+    
+    height: 70px;
+    
+}
+
+/*Styling for main game board*/
+#board{
+    
+    background-color: grey;
+    
+    border-right: 1px solid black;
+    
+    width: 60px;
+    
+    display: inline-grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    
+    padding: 5px;
+    
+}
+
+/*Styling for tile buttons*/
+.tile{
+    
+    box-sizing: border-box;
+    
+    width: 100%;
+    height: 100%;
+    
+    font-family: fantasy;
+    font-size: 20px;
+    
+    background-color: gainsboro;
+    
+    user-select: none;
+    
+}
+
+/*Hove styling for tile buttons*/
+.tile:hover{
+    
+    background-color: lightyellow;
+    border-color: lightyellow;
+    
+}
+
+/* Styling around tile after it was pressed (it has focus)*/
+.tile:focus{
+    
+    outline: none;
+    
+}
+
+/*Styling for the stats panel*/
+#stats{
+    
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    font-family: monospace;
+    font-size: 14px;
+        
+}
+
+/* Styling for update panel*/
+#update {
+    
+    background-color: darkgray;
+    
+    border-right: 1px solid black;
+    
+}
+
+/* Styling for the progress bar*/
+#progress{
+    
+    background-color: gold;
+    
+    width: 10px;
+    height: 100%;
+    
+}
+
+/* Starts an element as locked */
+.locked{
+    
+    display: none;
+    
+}

@@ -1,0 +1,85 @@
+<!--Main markup file-->
+<!--Ryan Allard-->
+<!doctype html>
+
+<html>
+
+    <head>
+        
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "style.css">
+        <script type = "text/javascript" src = "script.js"></script>
+        <title>Harvester</title>
+        
+    </head>
+
+    
+    
+    <body>
+        
+        <div id = "game">
+        
+            <div id = "display">
+
+                <!--Board-->
+                <div id = "board">
+
+                    <button id = "button-a" class = "tile">A</button>
+                    <button id = "button-b" class = "tile locked">B</button>
+
+                    <button id = "button-c" class = "tile locked">C</button>
+                    <button id = "button-d" class = "tile locked">D</button>
+
+                </div>
+                
+                <!--Update bar-->
+                <div id = "update" class = "locked">
+                    
+                    <div id = "progress"></div>
+                    
+                </div>
+                
+                <!--Displays-->
+                <div id = "stats" class = "locked">
+
+                    <div id = "display-a" class = "locked">
+                        
+                        A:&nbsp<span id = "value-a">0</span>
+                        <span id = "req-a" class = "locked">/<span id = "req-val-a">0</span></span>
+                        <span id = "change-a" class = "locked">&nbsp<span id = "change-val-a">0</span></span>
+                        
+                    </div>
+                    
+                    <div id = "display-b" class = "locked">
+                        
+                        B:&nbsp<span id = "value-b">0</span>
+                        <span id = "req-b" class = "locked">/<span id = "req-val-b">0</span></span>
+                        <span id = "change-b" class = "locked">&nbsp<span id = "change-val-b">0</span></span>
+                        
+                    </div>
+                    
+                    <div id = "display-c" class = "locked">
+                        
+                        C:&nbsp<span id = "value-c">0</span>
+                        <span id = "req-c" class = "locked">/<span id = "req-val-c">0</span></span>
+                        <span id = "change-c" class = "locked">&nbsp<span id = "change-val-c">0</span></span>
+                        
+                    </div>
+                    
+                    <div id = "display-d" class = "locked">
+                        
+                        D:&nbsp<span id = "value-d">0</span>
+                        <span id = "req-d" class = "locked">/<span id = "req-val-d">0</span></span>
+                        <span id = "change-d" class = "locked">&nbsp<span id = "change-val-d">0</span></span>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+        
+    </body>
+    
+</html>
